@@ -1,0 +1,25 @@
+/* Element Selector */
+h1 {
+    color: blue;
+}
+
+/* Class Selector (Reusable) */
+.red-text {
+    color: red;
+}
+
+/* ID Selector (Unique) */
+#main-header {
+    background-color: yellow;
+}
+
+/* Block vs Inline */
+div {
+    display: block;
+    /* Takes full width */
+}
+
+span {
+    display: inline;
+    /* Takes only needed width */
+}

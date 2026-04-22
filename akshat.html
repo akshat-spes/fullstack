@@ -1,0 +1,130 @@
+<!--lacture 1 to 15 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <link rel="stylesheet" href="akshat.css">
+</head>
+
+<body>
+    <h1>Hello World!</h1>
+
+    <h1>Main Title</h1>
+    <p>This is a paragraph with a <a href="https://google.com">link to Google</a>.</p>
+
+    <!-- Lists -->
+    <ul>
+        <li>Unordered Item 1</li>
+        <li>Unordered Item 2</li>
+    </ul>
+
+    <ol>
+        <li>Ordered Step 1</li>
+        <li>Ordered Step 2</li>
+    </ol>
+
+    <!-- Images -->
+    <img src="image.jpg" alt="Description of image" width="200">
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Role</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Harry</td>
+                <td>Developer</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form action="/submit" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter name">
+
+        <input type="password" placeholder="Password">
+
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="main-container" class="blue-box">
+        This is a div.
+    </div>
+
+
+    <span class="highlight">This is a span.</span>
+
+    <!-- Video with Controls -->
+    <video src="video.mp4" controls width="300"></video>
+
+    <!-- Audio -->
+    <audio src="song.mp3" controls></audio>
+
+    <!-- Iframe (Embedding YouTube or Maps) -->
+    <iframe src="https://wikipedia.org" width="500" height="300"></iframe>
+
+    <header>
+        <h1>My Website</h1>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Latest News</h2>
+            <article>
+                <h3>Article Title</h3>
+                <p>This is a self-contained story or post.</p>
+            </article>
+        </section>
+
+        <aside>
+            <p>Sidebar info (ads or links)</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sigma Web Dev</p>
+    </footer>
+
+    <!-- Video Player -->
+    <video src="video.mp4" width="400" controls poster="thumbnail.jpg">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Audio Player -->
+    <audio controls>
+        <source src="song.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <form action="/submit-data" method="POST">
+        <label for="username">Name:</label>
+        <input type="text" id="username" name="username" placeholder="Enter Name">
+
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="password">
+
+        <p>Gender:</p>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+
+        <button type="submit">Submit Now</button>
+    </form>
+
+</body>
+
+</html>
